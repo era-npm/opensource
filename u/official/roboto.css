@@ -1,0 +1,250 @@
+
+@font-face{
+    font-family: Quick;
+    font-style: normal;
+    float: inherit;
+    position: inherit;
+    font-size: inherit;
+    src: url(../fonts/Main/Quicksand-Medium.ttf);
+}
+@font-face{
+    font-family: Roboto-Thin;
+    font-style: normal;
+    float: inherit;
+    position: inherit;
+    font-size: inherit;
+    src: url(../fonts/Roboto/Roboto-Thin.ttf)
+}
+@font-face{
+    font-family: Roboto-thin-italic;
+    font-style: normal;
+    float: inherit;
+    position: inherit;
+    font-size: inherit;
+    src: url(../fonts/Roboto/Roboto-ThinItalic.ttf);
+}
+@font-face{
+    font-family: Roboto-Normal;
+    font-style: normal;
+    float: inherit;
+    position: inherit;
+    font-size: inherit;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face{
+    font-family:Roboto-Normal-Italic;
+    font-style: normal;
+    float: inherit;
+    position: inherit;
+    font-size: inherit;
+    src: url(../fonts/Roboto/Roboto-MediumItalic.ttf);
+}
+@font-face{
+    font-family:Roboto-Medium;
+    font-style: normal;
+    float: inherit;
+    position: inherit;
+    font-size: inherit;
+    src: url(../fonts/Roboto/Roboto-Medium.ttf);
+}
+@font-face{
+    font-family:Roboto-Light;
+    font-style: normal;
+    float: inherit;
+    position: inherit;
+    font-size: inherit;
+    src: url(../fonts/Roboto/Roboto-Light.ttf);
+}
+@font-face{
+    font-family: Roboto-Light-Italic;
+    font-style: normal;
+    float: inherit;
+    position: inherit;
+    font-size: inherit;
+    src: url(../fonts/Roboto/Roboto-LightItalic.ttf);
+}
+@font-face{
+    font-family: Roboto-Black;
+    font-style: normal;
+    float: inherit;
+    position: inherit;
+    font-size: inherit;
+    src: url(../fonts/Roboto/Roboto-Black.ttf);
+}
+@font-face{
+    font-family: Roboto-Black-Italic;
+    font-style: normal;
+    float: inherit;
+    position: inherit;
+    font-size: inherit;
+    src: url(../fonts/Roboto/Roboto-BlackItalic.ttf);
+}
+@font-face{
+    font-family: Roboto-Bold;
+    font-style: normal;
+    float: inherit;
+    position: inherit;
+    font-size: inherit;
+    src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+@font-face{
+    font-family: Roboto-Bold-Italic;
+    font-style: normal;
+    float: inherit;
+    position: inherit;
+    font-size: inherit;
+    src: url(../fonts/Roboto/Roboto-BoldItalic.ttf);
+}
+@font-face{
+  font-family: Apple;
+  src: url(../fonts/Apple/SF-Pro-Display-Black.otf) format(otf);
+}
+/*
+title
+*/
+
+#home .content h1::after{
+  content: "Spextr";
+  animation: textanim 10s linear infinite;
+}
+
+@keyframes textanim{
+  25%{
+    content: "Your Discord Bot";
+  }
+  50%{
+    content: "The best music bot";
+  }
+  75%{
+    content: "Musical";
+  }
+}
+/*
+    Add fonts to elements. this is going to be a long one...
+*/
+.rh1i{
+    font-family: Roboto;
+    font-style: italic;
+    float: inherit;
+    position: inherit;
+    font-size: inherit;
+}
+.rh1b{
+    font-family: Roboto;
+    font-style: bold;
+    float: inherit;
+    position: inherit;
+    font-size: inherit;
+}
+.rh1ib{
+    font-family: Roboto;
+    font-style: italic,bold;
+    float: inherit;
+    position: inherit;
+    font-size: inherit;
+}
+.rh2i{
+    font-family: Roboto;
+    font-style: italic;
+    float: inherit;
+    position: inherit;
+    font-size: inherit;
+}
+.rh2b{
+    font-family: Roboto;
+    font-style: bold;
+    float: inherit;
+    position: inherit;
+    font-size: inherit;
+}
+.rh2ib{
+    font-family: Roboto;
+    font-style: italic,bold;
+    float: inherit;
+    position: inherit;
+    font-size: inherit;
+}
+.rh3i{
+    font-family: Roboto;
+    font-style: italic;
+    float: inherit;
+    position: inherit;
+    font-size: inherit;
+}
+.rh3b{
+    font-family: Roboto;
+    font-style: bold;
+    float: inherit;
+    position: inherit;
+    font-size: inherit;
+}
+.rh3bi{
+    font-family: Roboto;
+    font-style: italic,bold;
+    float: inherit;
+    position: inherit;
+    font-size: inherit;
+}
+.rh4i{
+    font-family: Roboto;
+    font-style: italic;
+    float: inherit;
+    position: inherit;
+    font-size: inherit;
+}
+.rh4b{
+    font-family: Roboto;
+    font-style: bold;
+    float: inherit;
+    position: inherit;
+    font-size: inherit;
+}
+.rh4bi{
+    font-family: Roboto;
+    font-style: italic,bold;
+    float: inherit;
+    position: inherit;
+    font-size: inherit;
+}
+.rh5i{
+    font-family: Roboto;
+    font-style: italic;
+    float: inherit;
+    position: inherit;
+    font-size: inherit;
+}
+.rh5b{
+    font-family: Roboto;
+    font-style: bold;
+    float: inherit;
+    position: inherit;
+    font-size: inherit;
+}
+.rh5bi{
+    font-family: Roboto;
+    font-style: italic,bold;
+    float: inherit;
+    position: inherit;
+    font-size: inherit;
+}
+.rh6i{
+    font-family: Roboto;
+    font-style: italic;
+    float: inherit;
+    position: inherit;
+    font-size: inherit;
+}
+.rh6b{
+    font-family: baloo;
+    font-style: bold;
+    float: inherit;
+    position: inherit;
+    font-size: inherit;
+}
+.h6bi{
+    font-family: Roboto;
+    font-style: italic,bold;
+    float: inherit;
+    position: inherit;
+    font-size: inherit;
+}
